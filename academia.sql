@@ -1,0 +1,1 @@
+SELECT alumnos.* FROM academia.alumnos,academia.cursos where alumnos.idCurso=cursos.idCurso and cursos.nombre="Java 17";
